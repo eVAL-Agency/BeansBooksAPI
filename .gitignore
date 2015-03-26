@@ -1,0 +1,18 @@
+# Skip some Apple directories, these is machine centric
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Temp files created by gedit, (or something...)
+*~
+*.swp
+
+# Skip some additional PhpStorm metafiles.  These are all project centric
+# I need to include codeStyleSettings.xml since that is useful to have in the project.
+.idea/*
+!.idea/codeStyleSettings.xml
+
+# Skip the configuration file, this may contain sensitive information.
+/config.php
